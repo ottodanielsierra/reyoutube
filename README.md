@@ -1,3 +1,7 @@
+# ReYoutube
+
+This is a react exercise based on the redesign [concept of youtube](https://dribbble.com/shots/14993502-Youtube-Redesign-concept-Dark-theme) made by [Gura Nicholson](https://dribbble.com/guranicholson).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
