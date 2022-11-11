@@ -1,38 +1,114 @@
-.App {
-  text-align: center;
+@import "bulma/css/bulma.min.css";
+@import "@fortawesome/fontawesome-free/css/fontawesome.min.css";
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
+body {
+    background-image: url('./assets/img/bg.jpg');
+    background-size: cover;
+    font-family: 'Roboto' !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#app-container {
+    background-color: rgb(33 33 42 / 88%)
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input.searchbar {
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: bold;
+    padding-right: 2em;
+    width: 100%;
+    background: none;
+    color: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+main {
+    border-left: 1px solid #f5f5f508;
+    padding-left: 0px !important;
 }
 
-.App-link {
-  color: #61dafb;
+#content {
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button.button.is-danger.is-outlined {
+    color: white;
+    border-color: red;
+}
+
+button.button.is-danger.is-outlined:hover {
+    border-color: red;
+    background-color: red;
+}
+
+#autoplay {
+    background-color: rgba(255, 255, 255, 0.089);
+    border-radius: 10px;
+    padding: 5px 1em 5px 5px ;
+    color: white;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+video {
+    border-radius: 10px;
+}
+
+.thumbnail {
+    border-radius: 10px;
+}
+
+.sidebar {
+    padding-left: 2em;
+}
+
+.sidebar a {
+    color: white;
+    font-weight: bold;
+}
+
+hr {
+    height: 2px;
+    background-color: #f5f5f508 !important;
+}
+
+.sidebar i {
+    padding-right: 1em;
+}
+
+.sidebar li img.channel-img {
+    border-radius: 100%;
+    vertical-align: middle;
+    height: 1.4em;
+    
+}
+
+.sidebar li span  {
+    vertical-align: middle;
+    padding-left: 1em;
+}
+
+small {
+    font-size: 10px;
+}
+
+.feedvideo {
+    padding: 1em;
+}
+
+.feedvideo:hover {
+    background-color: rgba(255, 255, 255, 0.089);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/*Plyr Custom*/
+.plyr {
+    border-radius: 10px !important;
+}
+:root {
+    --plyr-color-main: red !important;
 }
